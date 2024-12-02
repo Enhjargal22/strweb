@@ -22,19 +22,19 @@ article {
     padding: 10px;
     margin: 10px;
     background: rgba(12, 174, 58, 0.178);
-    flex: 1; /* Добавим, чтобы статьи равномерно растягивались */
+    flex: 1; 
 }
 
 .all {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Добавляем отступы между блоками для лучшего восприятия */
+    gap: 10px;
 }
 
 .top {
     display: flex;
     flex-direction: row;
-    gap: 10px; /* Промежуток между статьями */
+    gap: 10px; 
 }
 
 .bottom {
@@ -52,7 +52,7 @@ article {
 .bottom-left {
     display: flex;
     flex-direction: column;
-    flex-grow: 1; /* Контейнер растягивается по высоте */
+    flex-grow: 1; 
     gap: 10px;
 }
 
@@ -60,6 +60,6 @@ article {
 .bottom-left-bottom {
     display: flex;
     flex-direction: row;
-    gap: 10px; /* Отступы между статьями */
-    flex: 1; /* Блоки занимают равное пространство внутри .bottom-left */
+    gap: 10px; 
+    flex: 1; 
 }
